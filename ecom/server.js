@@ -6,7 +6,7 @@ const fs = require("fs");
 const app = express();
 const port = 3000;
 // MongoDB connection
-mongoose.connect("mongodb://localhost:27017/ecommerce", {
+mongoose.connect("mongodb+srv://sailakannan:kanna2006@ecommerce.m0mnkun.mongodb.net/?retryWrites=true&w=majority&appName=ecommerce", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
